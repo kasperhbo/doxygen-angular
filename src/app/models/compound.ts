@@ -1,30 +1,10 @@
-import {NamespaceSettingService} from "../services/settings/namespace-setting.service";
-
-export interface NamespaceItem {
-  $: {
-    refid: string;
-    kind: string;
-  };
-  name: string;
-}
-
-export class NamespaceTree {
-  name: string;
-  children: NamespaceTree[];
-
-  constructor(name: string, children: NamespaceTree[] = []) {
-    this.name = name;
-    this.children = [];
-  }
-}
-
 export interface DoxygenIndex {
   doxygenindex: {
     compound: Compound[];
   };
 }
 
-export class Class {
+export class XMLClassModel {
   refid: string;
   kind: string;
   name: string;
@@ -47,10 +27,10 @@ export class Namespace{
   kind: string;
   name: string;
   member?: Member[];
-  classes?: Class[];
+  classes?: XMLClassModel[];
 
   constructor(refid: string, kind: string, name: string,
-              classes?: Class[],
+              classes?: XMLClassModel[],
               member?: Member[]) {
     this.refid = refid;
     this.kind = kind;

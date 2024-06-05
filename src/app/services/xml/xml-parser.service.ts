@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Class, Compound, DoxygenIndex, Namespace} from "../../models/compound";
+import {XMLClassModel, Compound, DoxygenIndex, Namespace} from "../../models/compound";
 import {HttpClient} from '@angular/common/http';
 import {Observable, from} from 'rxjs';
 import {map, switchMap} from 'rxjs/operators';
@@ -36,7 +36,7 @@ export class XmlParserService {
               return namespaceName === namespace.name;
             });
           namespace.classes = filteredClasses.map(compound => {
-            return new Class(
+            return new XMLClassModel(
               compound.$.refid,
               compound.$.kind,
               compound.name.substring(compound.name.lastIndexOf('::') + 2),

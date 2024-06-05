@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {XmlParserService} from "../../services/xml/xml-parser.service";
-import {Class, Compound, Namespace} from "../../models/compound";
+import {XMLClassModel, Compound, Namespace} from "../../models/compound";
 import {NamespaceSettingService} from "../../services/settings/namespace-setting.service";
 
 @Component({
@@ -10,7 +10,7 @@ import {NamespaceSettingService} from "../../services/settings/namespace-setting
 })
 export class SidebarComponent implements OnInit {
   @Input() isCollapsed: boolean = false;
-  @Output() classClicked: EventEmitter<Class> = new EventEmitter<Class>();
+  @Output() classClicked: EventEmitter<XMLClassModel> = new EventEmitter<XMLClassModel>();
 
   namespaces: Namespace[] = [];
 
@@ -32,7 +32,7 @@ export class SidebarComponent implements OnInit {
     return this.namespaceSettingsService.getBaseName(fullyQualifiedNamespaceName);
   }
 
-  onClassClick(className: Class): void {
+  onClassClick(className: XMLClassModel): void {
     console.log('Class clicked: ', className);
     this.classClicked.emit(className);
   }

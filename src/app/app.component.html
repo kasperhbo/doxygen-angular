@@ -5,7 +5,9 @@
             nzBreakpoint="md"
             [(nzCollapsed)]="isCollapsed"
             [nzTrigger]="null">
-    <app-sidebar [isCollapsed]="isCollapsed">
+    <app-sidebar
+      (classClicked)="onClassClicked($event)"
+      [isCollapsed]="isCollapsed">
 
     </app-sidebar>
   </nz-sider>
@@ -22,7 +24,8 @@
     </nz-header>
     <nz-content>
       <div class="inner-content">
-        <router-outlet></router-outlet>
+        <app-class-details [selectedXMLClass]="selectedXMLClass" >
+        </app-class-details>
       </div>
     </nz-content>
   </nz-layout>

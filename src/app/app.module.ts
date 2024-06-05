@@ -15,6 +15,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import {HttpClient, provideHttpClient} from '@angular/common/http';
 import {SidebarModule} from "./components/sidebar/sidebar.module";
 import {NzResizableDirective, NzResizeHandleComponent} from "ng-zorro-antd/resizable";
+import {ClassDetailsModule} from "./components/class-details/class-details.module";
 
 registerLocaleData(en);
 
@@ -31,7 +32,8 @@ registerLocaleData(en);
     FormsModule,
     SidebarModule,
     NzResizableDirective,
-    NzResizeHandleComponent
+    NzResizeHandleComponent,
+    ClassDetailsModule
   ],
   providers: [
     provideAnimationsAsync(),
