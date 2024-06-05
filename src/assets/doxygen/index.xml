@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd"
+              version="1.11.0" xml:lang="en-US">
+  <compound refid="d7/df7/a00058" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::Main</name>
+    <member refid="d7/df7/a00058_1ae3ef1c1765d04b10bb4abda9fa6bb040" kind="variable">
+      <name>shutdownLatch</name>
+    </member>
+    <member refid="d7/df7/a00058_1a7f9eeb62de65b93e09eb6621998cc1f6" kind="variable">
+      <name>logger</name>
+    </member>
+    <member refid="d7/df7/a00058_1a8b260eecbaabcef8473fd87ada040682" kind="function">
+      <name>main</name>
+    </member>
+  </compound>
+  <compound refid="df/d03/a00062" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::models::DatabaseConnection</name>
+    <member refid="df/d03/a00062_1a7f9eeb62de65b93e09eb6621998cc1f6" kind="variable">
+      <name>logger</name>
+    </member>
+    <member refid="df/d03/a00062_1a99e4cb360491606f0261d8b63d1f02fb" kind="variable">
+      <name>databaseProperties</name>
+    </member>
+    <member refid="df/d03/a00062_1a81c78f9add56fdbec8a0757792cbffe2" kind="variable">
+      <name>dataSource</name>
+    </member>
+    <member refid="df/d03/a00062_1a35abe4ec1e0b2290a115a322647eb8c2" kind="variable">
+      <name>connection</name>
+    </member>
+    <member refid="df/d03/a00062_1adb0e9589b0ae98b0cbdf2d2d9b8fe3c4" kind="function">
+      <name>DatabaseConnection</name>
+    </member>
+    <member refid="df/d03/a00062_1a5ae591df94fc66ccb85cbb6565368bca" kind="function">
+      <name>close</name>
+    </member>
+    <member refid="df/d03/a00062_1ab85b8c3ed2a14f402b408d77e4fa20f6" kind="function">
+      <name>user</name>
+    </member>
+    <member refid="df/d03/a00062_1a33b7c7c1f252692f6c6d26daa4c5c384" kind="function">
+      <name>password</name>
+    </member>
+    <member refid="df/d03/a00062_1a611db14020b3735d841fa89b05971f2f" kind="function">
+      <name>url</name>
+    </member>
+    <member refid="df/d03/a00062_1a5a571989eb39fa759e023deb2aad9917" kind="function">
+      <name>driver</name>
+    </member>
+    <member refid="df/d03/a00062_1a6d9459e06cad05acc7f2cf1406be8a7a" kind="function">
+      <name>schema</name>
+    </member>
+    <member refid="df/d03/a00062_1ab25876a1bf82c2ae1fdeafb50988cc64" kind="function">
+      <name>table</name>
+    </member>
+    <member refid="df/d03/a00062_1ad4afdba5592e0222a922596feb5540be" kind="function">
+      <name>databaseProperties</name>
+    </member>
+    <member refid="df/d03/a00062_1a8d5743492c204e6e90610d3410d9864d" kind="function">
+      <name>connection</name>
+    </member>
+    <member refid="df/d03/a00062_1ae995b94b21c88f63d2352f29fa799ad2" kind="function">
+      <name>setupDataSource</name>
+    </member>
+    <member refid="df/d03/a00062_1afbf4768f0408a85337dbb9f1413d611a" kind="function">
+      <name>isConnected</name>
+    </member>
+  </compound>
+  <compound refid="d9/db3/a00066" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::models::PhotoFile</name>
+    <member refid="d9/db3/a00066_1a7f9eeb62de65b93e09eb6621998cc1f6" kind="variable">
+      <name>logger</name>
+    </member>
+    <member refid="d9/db3/a00066_1ab514d78b41853208e72850a1402e3ade" kind="variable">
+      <name>file</name>
+    </member>
+    <member refid="d9/db3/a00066_1a655cf082fe1abd7b0f90cec454d924ff" kind="variable">
+      <name>uid</name>
+    </member>
+    <member refid="d9/db3/a00066_1aaecd4498e953cd8a4178a5982c766f1b" kind="variable">
+      <name>properties</name>
+    </member>
+    <member refid="d9/db3/a00066_1a9f961f237c908db5126973013e8f1692" kind="variable">
+      <name>databaseConnection</name>
+    </member>
+    <member refid="d9/db3/a00066_1a8180b7c86ac864eccf0f7b5cb2f5085c" kind="variable">
+      <name>type</name>
+    </member>
+    <member refid="d9/db3/a00066_1a6a5fdc8cd1fef20b159f57075945bd87" kind="function">
+      <name>PhotoFile</name>
+    </member>
+    <member refid="d9/db3/a00066_1a39e5bc339e3b5924ec96de42fbb8f33f" kind="function">
+      <name>equals</name>
+    </member>
+    <member refid="d9/db3/a00066_1a077e18fe97323c7194e2665ffc766399" kind="function">
+      <name>hashCode</name>
+    </member>
+    <member refid="d9/db3/a00066_1ad146fa8579a5f8a876c4688cc5a68520" kind="function">
+      <name>toString</name>
+    </member>
+    <member refid="d9/db3/a00066_1a6f3855be210bcb2f6f480d58bb1c019d" kind="function">
+      <name>getPhotoUID</name>
+    </member>
+    <member refid="d9/db3/a00066_1a422e52a7f7445ecc20b20e17db502639" kind="function">
+      <name>getPhotoType</name>
+    </member>
+    <member refid="d9/db3/a00066_1a4320ad171963034a523c98b531f6c75e" kind="function">
+      <name>process</name>
+    </member>
+    <member refid="d9/db3/a00066_1abb4826f39928c76271f002e0551e636e" kind="function">
+      <name>file</name>
+    </member>
+    <member refid="d9/db3/a00066_1a610669b50a77ece37f5676679270e5f8" kind="function">
+      <name>uid</name>
+    </member>
+    <member refid="d9/db3/a00066_1a9a2a3dec914b4781f4a3aa7b4a0c18fc" kind="function">
+      <name>type</name>
+    </member>
+    <member refid="d9/db3/a00066_1a342cff7f08bac1d8dffd8869b55e1a5d" kind="function">
+      <name>writeNewPathToSql</name>
+    </member>
+    <member refid="d9/db3/a00066_1ae1b2953da6390b93d21041aa5942a426" kind="function">
+      <name>move</name>
+    </member>
+  </compound>
+  <compound refid="d2/db1/a00070" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::PhotoProcessorApplication</name>
+    <member refid="d2/db1/a00070_1a7f9eeb62de65b93e09eb6621998cc1f6" kind="variable">
+      <name>logger</name>
+    </member>
+    <member refid="d2/db1/a00070_1a1c10284f12d2fc9ddb62821e247f3fd6" kind="variable">
+      <name>fetchCamerasConfigInterval</name>
+    </member>
+    <member refid="d2/db1/a00070_1ab2d7254c42daf59d93e503dfa0d1f206" kind="variable">
+      <name>defaultFileAgeThreshold</name>
+    </member>
+    <member refid="d2/db1/a00070_1a4ae9de4c41d4269af1f569e9921fca8f" kind="variable">
+      <name>defaultTimeBetweenScans</name>
+    </member>
+    <member refid="d2/db1/a00070_1aa13e93ced5bd8d8b85d8c3294d532d97" kind="variable">
+      <name>checkEnabledCamerasScheduler</name>
+    </member>
+    <member refid="d2/db1/a00070_1a9aa206df743f0aded0de91eb0c10127f" kind="variable">
+      <name>enabledCameras</name>
+    </member>
+    <member refid="d2/db1/a00070_1aea16bc6d8f07f71182ff3d18fc4da13f" kind="variable">
+      <name>enabledCameraFiles</name>
+    </member>
+    <member refid="d2/db1/a00070_1a478b60d1ef7bd5ad5bc46efb20208bcf" kind="variable">
+      <name>fileContentsMap</name>
+    </member>
+    <member refid="d2/db1/a00070_1ade7087214aa6cc09aae8151e905f1771" kind="variable">
+      <name>photoProcessorPropertiesDir</name>
+    </member>
+    <member refid="d2/db1/a00070_1ae47bdab214e75416bb8c9536014d55d0" kind="variable">
+      <name>enabledCameraPropertiesDir</name>
+    </member>
+    <member refid="d2/db1/a00070_1a99e4cb360491606f0261d8b63d1f02fb" kind="variable">
+      <name>databaseProperties</name>
+    </member>
+    <member refid="d2/db1/a00070_1a2e87c5ede6b7235170d287cd2e254454" kind="function">
+      <name>[static initializer]</name>
+    </member>
+    <member refid="d2/db1/a00070_1ae4abd49925ef9d27bbe8a9c76fc15909" kind="function">
+      <name>PhotoProcessorApplication</name>
+    </member>
+    <member refid="d2/db1/a00070_1a42e15be31e94d726ba14794b776b343b" kind="function">
+      <name>start</name>
+    </member>
+    <member refid="d2/db1/a00070_1a7839a2481b0e1feece695c60152d226f" kind="function">
+      <name>getDefaultTimeBetweenScans</name>
+    </member>
+    <member refid="d2/db1/a00070_1ab18e2f6769c8df070374518a8489ff23" kind="function">
+      <name>getDefaultFileAgeThreshold</name>
+    </member>
+    <member refid="d2/db1/a00070_1a62d41be4b41bfdb31fb9d8b017c5363a" kind="function">
+      <name>shutdown</name>
+    </member>
+    <member refid="d2/db1/a00070_1a6061bd811253588a608b2a739baf258e" kind="function">
+      <name>fetchConfigFiles</name>
+    </member>
+    <member refid="d2/db1/a00070_1adac5f9c5f20481f669d0bed8a5c402fb" kind="function">
+      <name>reloadEnabledCameraConfig</name>
+    </member>
+    <member refid="d2/db1/a00070_1a5ee54bacd100172e606a4694dc62a84c" kind="function">
+      <name>tryStartNewCamera</name>
+    </member>
+    <member refid="d2/db1/a00070_1a83c80b83ea451f96309226db54980d8e" kind="function">
+      <name>stopCamera</name>
+    </member>
+    <member refid="d2/db1/a00070_1a9c31c50dec4163f2734c1c9d1d7c6d79" kind="function">
+      <name>compareContents</name>
+    </member>
+    <member refid="d2/db1/a00070_1aea64553324d4118c111172ff409c8f72" kind="function">
+      <name>readFileContents</name>
+    </member>
+    <member refid="d2/db1/a00070_1a876c0699cfeae70f84fc508a4b05b6c0" kind="function">
+      <name>isRunning</name>
+    </member>
+  </compound>
+  <compound refid="db/db6/a00074" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::PhotoProcessorThread</name>
+    <member refid="db/db6/a00074_1a7f9eeb62de65b93e09eb6621998cc1f6" kind="variable">
+      <name>logger</name>
+    </member>
+    <member refid="db/db6/a00074_1aaecd4498e953cd8a4178a5982c766f1b" kind="variable">
+      <name>properties</name>
+    </member>
+    <member refid="db/db6/a00074_1ad5299daba9b7773f8cce62891436aa2a" kind="variable">
+      <name>executorService</name>
+    </member>
+    <member refid="db/db6/a00074_1aee6ac5de4d56b9ea918692fd862931de" kind="variable">
+      <name>fileFilter</name>
+    </member>
+    <member refid="db/db6/a00074_1ab3379d547b0401822d3db2a82c413cb5" kind="variable">
+      <name>databaseConnection</name>
+    </member>
+    <member refid="db/db6/a00074_1a08cc74035aad669a3dacd05bd247256f" kind="function">
+      <name>PhotoProcessorThread</name>
+    </member>
+    <member refid="db/db6/a00074_1a083d489ba3b96d972ae5f852706a8502" kind="function">
+      <name>shutDown</name>
+    </member>
+    <member refid="db/db6/a00074_1a13a43e6d814de94978c515cb084873b1" kind="function">
+      <name>run</name>
+    </member>
+    <member refid="db/db6/a00074_1afe44323945362ff95006b36e5c3b46fd" kind="function">
+      <name>getScanningFolder</name>
+    </member>
+    <member refid="db/db6/a00074_1a9d59c7da430c23a38950be7f148ac74a" kind="function">
+      <name>processPhotos</name>
+    </member>
+    <member refid="db/db6/a00074_1a6840e4134663b4eeb034283462bf8ffb" kind="function">
+      <name>getPhotosToProcess</name>
+    </member>
+  </compound>
+  <compound refid="d9/da4/a00078" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::properties::DatabaseProperties</name>
+    <member refid="d9/da4/a00078_1a2422d293e4ee9d02ee4d0e1885feb45f" kind="variable">
+      <name>url</name>
+    </member>
+    <member refid="d9/da4/a00078_1a0865c98e0c15ad585b7d451842ab7227" kind="variable">
+      <name>username</name>
+    </member>
+    <member refid="d9/da4/a00078_1aeaa551b82acfe8e65bf52dc571d3c1ac" kind="variable">
+      <name>password</name>
+    </member>
+    <member refid="d9/da4/a00078_1a72b2b9dd374ab62ae248018d8f5fc43d" kind="variable">
+      <name>schema</name>
+    </member>
+    <member refid="d9/da4/a00078_1ac43adafcb925496db47a2f1f4c0d1946" kind="variable">
+      <name>tableName</name>
+    </member>
+    <member refid="d9/da4/a00078_1a2c00091f22ff5c84f78ac7df9d7d1563" kind="variable">
+      <name>driver</name>
+    </member>
+    <member refid="d9/da4/a00078_1a9d321abf35256b495d4a96a8c6024bc0" kind="function">
+      <name>DatabaseProperties</name>
+    </member>
+    <member refid="d9/da4/a00078_1ae20b2b1b365728cff467dfb1d687adce" kind="function">
+      <name>builder</name>
+    </member>
+    <member refid="d9/da4/a00078_1a611db14020b3735d841fa89b05971f2f" kind="function">
+      <name>url</name>
+    </member>
+    <member refid="d9/da4/a00078_1a4677baaf005cf1f6594570f5e4f687cc" kind="function">
+      <name>username</name>
+    </member>
+    <member refid="d9/da4/a00078_1a33b7c7c1f252692f6c6d26daa4c5c384" kind="function">
+      <name>password</name>
+    </member>
+    <member refid="d9/da4/a00078_1a6d9459e06cad05acc7f2cf1406be8a7a" kind="function">
+      <name>schema</name>
+    </member>
+    <member refid="d9/da4/a00078_1a4c6c3a0837553e6437e2f6a4f3730522" kind="function">
+      <name>tableName</name>
+    </member>
+    <member refid="d9/da4/a00078_1a5a571989eb39fa759e023deb2aad9917" kind="function">
+      <name>driver</name>
+    </member>
+  </compound>
+  <compound refid="d4/d63/a00082" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::properties::DatabaseProperties::Builder</name>
+    <member refid="d4/d63/a00082_1a75bdade95ad6dd393cc5421a1c900488" kind="variable">
+      <name>table</name>
+    </member>
+    <member refid="d4/d63/a00082_1acbd76b816d055b7a642c219fd9751020" kind="variable">
+      <name>password</name>
+    </member>
+    <member refid="d4/d63/a00082_1ae91c86c4d1584286de9492f51957ac23" kind="variable">
+      <name>username</name>
+    </member>
+    <member refid="d4/d63/a00082_1a983d3a00cb7e2cdac046d6ef1ce9f8f2" kind="variable">
+      <name>url</name>
+    </member>
+    <member refid="d4/d63/a00082_1ac7fd1b173878878d0b95ecb920c54103" kind="variable">
+      <name>schema</name>
+    </member>
+    <member refid="d4/d63/a00082_1a683091543907b258aaf7e6b8fdb428d4" kind="function">
+      <name>fromFile</name>
+    </member>
+    <member refid="d4/d63/a00082_1af3ae50cab77868ba9b3bdf7dbe5e6490" kind="function">
+      <name>build</name>
+    </member>
+  </compound>
+  <compound refid="d9/dec/a00090" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::properties::exceptions::InvalidPropertyException</name>
+    <member refid="d9/dec/a00090_1ac63a53bc0709442c97bc8aadbaad8b43" kind="function">
+      <name>InvalidPropertyException</name>
+    </member>
+    <member refid="d9/dec/a00090_1a3bd7352aae414bde2c15c09a7ff3202f" kind="function">
+      <name>InvalidPropertyException</name>
+    </member>
+  </compound>
+  <compound refid="dc/d54/a00094" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::properties::PhotoProcessorProperties</name>
+    <member refid="dc/d54/a00094_1a7f9eeb62de65b93e09eb6621998cc1f6" kind="variable">
+      <name>logger</name>
+    </member>
+    <member refid="dc/d54/a00094_1ab514d78b41853208e72850a1402e3ade" kind="variable">
+      <name>file</name>
+    </member>
+    <member refid="dc/d54/a00094_1ae11eaa33cfc52a4ef5b6cc59281bca31" kind="variable">
+      <name>photosDirectory</name>
+    </member>
+    <member refid="dc/d54/a00094_1a692da84b124183ee415e656ee6f23195" kind="variable">
+      <name>readArchiveDirectory</name>
+    </member>
+    <member refid="dc/d54/a00094_1a36b47d4c2de9fe7c296eaaccb294c0a0" kind="variable">
+      <name>noReadArchiveDirectory</name>
+    </member>
+    <member refid="dc/d54/a00094_1a202dcffc25112eb563012e3bef22b8b8" kind="variable">
+      <name>testArchiveDirectory</name>
+    </member>
+    <member refid="dc/d54/a00094_1a8347b509f40e0d47a4a2d02e72e965e2" kind="variable">
+      <name>timeBetweenScans</name>
+    </member>
+    <member refid="dc/d54/a00094_1adece98a713c30e97a11e58f8c530a126" kind="variable">
+      <name>fileAgeThreshold</name>
+    </member>
+    <member refid="dc/d54/a00094_1acdd6dcdb2156cc54c4499303eed94c52" kind="variable">
+      <name>overwriteDefaultProperties</name>
+    </member>
+    <member refid="dc/d54/a00094_1aab523976dce52d263b55e8e6a9ac5cd7" kind="variable">
+      <name>fileNamePrefix</name>
+    </member>
+    <member refid="dc/d54/a00094_1a6894d65dd7d582c3fa2994e8bb7c25c1" kind="variable">
+      <name>extension</name>
+    </member>
+    <member refid="dc/d54/a00094_1abfbb09e4ca4b0ebefe1fa6c515bebf56" kind="variable">
+      <name>readSuffix</name>
+    </member>
+    <member refid="dc/d54/a00094_1a0d19cb966c53787ee6803d62f661ec2a" kind="variable">
+      <name>noReadSuffix</name>
+    </member>
+    <member refid="dc/d54/a00094_1aab647d3433235c7ee82fc197f506e4ea" kind="variable">
+      <name>moveXML</name>
+    </member>
+    <member refid="dc/d54/a00094_1aee210d34ad6c1b942efde31d3a928f2a" kind="function">
+      <name>PhotoProcessorProperties</name>
+    </member>
+    <member refid="dc/d54/a00094_1a946321d3de59f7d9ee67c88ef6af7378" kind="function">
+      <name>getOverwriteDefaultProperties</name>
+    </member>
+    <member refid="dc/d54/a00094_1a3ca83935c38cbbb49f40d6f3451e01cb" kind="function">
+      <name>getPhotosDirectory</name>
+    </member>
+    <member refid="dc/d54/a00094_1a8aa7ae8bbc6525863918ee40d1fe06c3" kind="function">
+      <name>getReadArchiveDirectory</name>
+    </member>
+    <member refid="dc/d54/a00094_1ad7fb6a33a9e1d7c174debeb2f4384f42" kind="function">
+      <name>getNoReadArchiveDirectory</name>
+    </member>
+    <member refid="dc/d54/a00094_1a9d1a1e27ed136af78b1141d4c40da217" kind="function">
+      <name>getTestArchiveDirectory</name>
+    </member>
+    <member refid="dc/d54/a00094_1ade535c1cf39e5242c16c7864d74debd1" kind="function">
+      <name>getFile</name>
+    </member>
+    <member refid="dc/d54/a00094_1acae3eee821f38e01ff5b4ac02529e65e" kind="function">
+      <name>getMoveXML</name>
+    </member>
+    <member refid="dc/d54/a00094_1a7ecd7f02f0e23c315e99d46fd9878dc9" kind="function">
+      <name>getTimeBetweenScans</name>
+    </member>
+    <member refid="dc/d54/a00094_1a1c70878cc46b4db1d9786b093f7612ac" kind="function">
+      <name>getFileAgeThreshold</name>
+    </member>
+    <member refid="dc/d54/a00094_1a9ac49c4baf2eac16869765f6e9bd3534" kind="function">
+      <name>getFileNamePrefix</name>
+    </member>
+    <member refid="dc/d54/a00094_1ade7fcd012e431a9fc8bffa015856bc3f" kind="function">
+      <name>getExtension</name>
+    </member>
+    <member refid="dc/d54/a00094_1a0617d85e46f1a46836298d0c833bcc2e" kind="function">
+      <name>getReadSuffix</name>
+    </member>
+    <member refid="dc/d54/a00094_1a653742d89db562e2f212796419231104" kind="function">
+      <name>getNoReadSuffix</name>
+    </member>
+    <member refid="dc/d54/a00094_1ad146fa8579a5f8a876c4688cc5a68520" kind="function">
+      <name>toString</name>
+    </member>
+  </compound>
+  <compound refid="d1/d44/a00098" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::properties::PhotoProcessorProperties::Builder</name>
+    <member refid="d1/d44/a00098_1a5eea5bedc36e0a29487dac7dd5725035" kind="variable">
+      <name>file</name>
+    </member>
+    <member refid="d1/d44/a00098_1a0a74e21eea16009735678189d6558735" kind="variable">
+      <name>photosDirectory</name>
+    </member>
+    <member refid="d1/d44/a00098_1af7925b9d4d94e2d686570dc773e5659d" kind="variable">
+      <name>readArchiveDirectory</name>
+    </member>
+    <member refid="d1/d44/a00098_1a13211f7df7b93e565a157b7722546499" kind="variable">
+      <name>testArchiveDirectory</name>
+    </member>
+    <member refid="d1/d44/a00098_1a7c19968d41f71bb3a0c512ce2515bac7" kind="variable">
+      <name>overwriteDefaultProperties</name>
+    </member>
+    <member refid="d1/d44/a00098_1a0793deeb0f6707058e14bb98e470b0c5" kind="variable">
+      <name>timeBetweenScans</name>
+    </member>
+    <member refid="d1/d44/a00098_1ac80e43a6fc811cd765053c813d1d0ffd" kind="variable">
+      <name>fileAgeThreshold</name>
+    </member>
+    <member refid="d1/d44/a00098_1a6b3f30e6baebba729665f5e6c21914b0" kind="variable">
+      <name>fileNamePrefix</name>
+    </member>
+    <member refid="d1/d44/a00098_1a313e42c05e08002a8897d438c15bdf7a" kind="variable">
+      <name>fileExtension</name>
+    </member>
+    <member refid="d1/d44/a00098_1a3e14f06813d750571d925d6910ab6f5b" kind="variable">
+      <name>readSuffix</name>
+    </member>
+    <member refid="d1/d44/a00098_1a66a71da51c77882a2a3ea53e564a7df8" kind="variable">
+      <name>noReadSuffix</name>
+    </member>
+    <member refid="d1/d44/a00098_1aa85baa063553d4e90b54d39980907c9e" kind="variable">
+      <name>noReadArchiveDirectory</name>
+    </member>
+    <member refid="d1/d44/a00098_1a382e42960471497789b2312f9c980251" kind="variable">
+      <name>moveXML</name>
+    </member>
+    <member refid="d1/d44/a00098_1ab5bfe5bb97ef2f95d32f2b7f4985e9c1" kind="function">
+      <name>photosDirectory</name>
+    </member>
+    <member refid="d1/d44/a00098_1a2ac6c94bf7e776e0b3d1e5589a63b9cb" kind="function">
+      <name>readArchiveDirectory</name>
+    </member>
+    <member refid="d1/d44/a00098_1a22184ddae7f45ec984e6278b63053dcb" kind="function">
+      <name>noReadArchiveDirectory</name>
+    </member>
+    <member refid="d1/d44/a00098_1a139a8f66be7f05a57ec65e11e083d13a" kind="function">
+      <name>testArchiveDirectory</name>
+    </member>
+    <member refid="d1/d44/a00098_1a964034d61d66807b1bd07bcf6cbd1c75" kind="function">
+      <name>overwriteDefaultProperties</name>
+    </member>
+    <member refid="d1/d44/a00098_1a8417d6c57c7294eaae8c1cc61fd7b5e1" kind="function">
+      <name>timeBetweenScans</name>
+    </member>
+    <member refid="d1/d44/a00098_1a687f98f48e2369565f74769e56ac6ffd" kind="function">
+      <name>fileAgeThreshold</name>
+    </member>
+    <member refid="d1/d44/a00098_1a7c80cd9982120efd065b47b0400a5ecb" kind="function">
+      <name>fileNamePrefix</name>
+    </member>
+    <member refid="d1/d44/a00098_1ab72186bf681565da8e9e0de8c5e96d95" kind="function">
+      <name>extension</name>
+    </member>
+    <member refid="d1/d44/a00098_1ace227378d07b1fab310ba46370fe78ae" kind="function">
+      <name>readSuffix</name>
+    </member>
+    <member refid="d1/d44/a00098_1ac1d5fba7671f2b4d497b405ca45ccee9" kind="function">
+      <name>noReadSuffix</name>
+    </member>
+    <member refid="d1/d44/a00098_1acffd2cd9dc3fb0641c4a335d1d7ee217" kind="function">
+      <name>file</name>
+    </member>
+    <member refid="d1/d44/a00098_1a670d065e97d98530b6042d25da91d110" kind="function">
+      <name>fromFile</name>
+    </member>
+    <member refid="d1/d44/a00098_1a9b5d79c73f8b6ba2afeb61a5935a5f4a" kind="function">
+      <name>validate</name>
+    </member>
+    <member refid="d1/d44/a00098_1a81faaa54d41d5511a69980be94b8bf51" kind="function">
+      <name>build</name>
+    </member>
+    <member refid="d1/d44/a00098_1a28c9f1430a8be75f6ff7d91073880954" kind="function">
+      <name>moveXML</name>
+    </member>
+  </compound>
+  <compound refid="d9/dcc/a00102" kind="class">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::utils::PropertyFileUtils</name>
+    <member refid="d9/dcc/a00102_1ade98a5997e1bc1cd6b3b2025771944cf" kind="function">
+      <name>PropertyFileUtils</name>
+    </member>
+    <member refid="d9/dcc/a00102_1a87b3ed424b984694f49cab45c01f358a" kind="function">
+      <name>loadProperties</name>
+    </member>
+  </compound>
+
+  <compound refid="d5/de0/a00050" kind="namespace">
+    <name>java::lang</name>
+  </compound>
+  <compound refid="d5/db6/a00042" kind="namespace">
+    <name>nl</name>
+  </compound>
+  <compound refid="d6/d42/a00043" kind="namespace">
+    <name>nl::hellebrekers</name>
+  </compound>
+  <compound refid="d5/df9/a00044" kind="namespace">
+    <name>nl::hellebrekers::benandjerrys</name>
+  </compound>
+  <compound refid="d6/d97/a00045" kind="namespace">
+    <name>nl::hellebrekers::benandjerrys::photo</name>
+  </compound>
+  <compound refid="dd/d32/a00041" kind="namespace">
+    <name>nl::hellebrekers::benandjerrys::photo::processor</name>
+  </compound>
+  <compound refid="d3/dea/a00046" kind="namespace">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::models</name>
+  </compound>
+  <compound refid="d6/d2d/a00047" kind="namespace">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::properties</name>
+  </compound>
+  <compound refid="d4/dca/a00048" kind="namespace">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::properties::exceptions</name>
+  </compound>
+  <compound refid="d2/dee/a00049" kind="namespace">
+    <name>nl::hellebrekers::benandjerrys::photo::processor::utils</name>
+  </compound>
+  <compound refid="d8/d41/a00038" kind="file">
+    <name>README.md</name>
+  </compound>
+  <compound refid="d4/dee/a00008" kind="file">
+    <name>EPhotoType.java</name>
+  </compound>
+  <compound refid="d4/d8c/a00035" kind="file">
+    <name>Main.java</name>
+  </compound>
+  <compound refid="d2/de7/a00014" kind="file">
+    <name>DatabaseConnection.java</name>
+  </compound>
+  <compound refid="d4/d51/a00017" kind="file">
+    <name>PhotoFile.java</name>
+  </compound>
+  <compound refid="db/db2/a00020" kind="file">
+    <name>PhotoProcessorApplication.java</name>
+  </compound>
+  <compound refid="dd/dad/a00005" kind="file">
+    <name>PhotoProcessorThread.java</name>
+  </compound>
+  <compound refid="d3/d52/a00023" kind="file">
+    <name>DatabaseProperties.java</name>
+  </compound>
+  <compound refid="dc/d87/a00032" kind="file">
+    <name>ESystemProperties.java</name>
+  </compound>
+  <compound refid="d5/d16/a00029" kind="file">
+    <name>InvalidPropertyException.java</name>
+  </compound>
+  <compound refid="d6/d5b/a00026" kind="file">
+    <name>PhotoProcessorProperties.java</name>
+  </compound>
+  <compound refid="da/d45/a00011" kind="file">
+    <name>PropertyFileUtils.java</name>
+  </compound>
+  <compound refid="dir_13f417f2867778403833ef20f4ec947c" kind="dir">
+    <name>src/main/java/nl/hellebrekers/benandjerrys</name>
+  </compound>
+  <compound refid="dir_49befee45e7cab053b6781853d27aec3" kind="dir">
+    <name>src/main/java/nl/hellebrekers/benandjerrys/photo/processor/properties/exceptions</name>
+  </compound>
+  <compound refid="dir_e97d2baff432d448d8381b0282296977" kind="dir">
+    <name>src/main/java/nl/hellebrekers</name>
+  </compound>
+  <compound refid="dir_fd3f6763802dee1ad875f6c80eac0bda" kind="dir">
+    <name>src/main/java</name>
+  </compound>
+  <compound refid="dir_5eb159725f84c66aafd839904a4acdd0" kind="dir">
+    <name>src/main</name>
+  </compound>
+  <compound refid="dir_c3428885d252efd37966cf2ab295a404" kind="dir">
+    <name>src/main/java/nl/hellebrekers/benandjerrys/photo/processor/models</name>
+  </compound>
+  <compound refid="dir_f5d861809e19f01f8c87eefd6d18641b" kind="dir">
+    <name>src/main/java/nl</name>
+  </compound>
+  <compound refid="dir_f9eff1ff42d36720272f95616a7cf354" kind="dir">
+    <name>src/main/java/nl/hellebrekers/benandjerrys/photo</name>
+  </compound>
+  <compound refid="dir_b14b337e99b9e1c84e904abbf38b3c9b" kind="dir">
+    <name>src/main/java/nl/hellebrekers/benandjerrys/photo/processor</name>
+  </compound>
+  <compound refid="dir_5b203fc204e79dd1ad5803a3f1186c78" kind="dir">
+    <name>src/main/java/nl/hellebrekers/benandjerrys/photo/processor/properties</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <name>src</name>
+  </compound>
+  <compound refid="dir_5c6aa7a0429e406aeb88a52c7bbd5061" kind="dir">
+    <name>src/main/java/nl/hellebrekers/benandjerrys/photo/processor/utils</name>
+  </compound>
+  <compound refid="indexpage" kind="page">
+    <name>index</name>
+  </compound>
+</doxygenindex>

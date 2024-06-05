@@ -1,0 +1,26 @@
+
+<ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
+<!--  <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">-->
+<!--    <ul>-->
+<!--      <li nz-menu-item nzMatchRouter>-->
+<!--        <a routerLink="/welcome">Welcome</a>-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </li>-->
+  <li nz-submenu nzOpen nzTitle="Namespaces" nzIcon="form">
+    <ul>
+      <ul *ngFor="let namespace of namespaces">
+        <li nz-submenu [nzTitle]="getBaseName(namespace.name)" *ngIf="namespace.classes && namespace.classes.length > 0">
+          <ul>
+            <li
+              nz-menu-item
+              *ngFor="let clazz of namespace.classes"
+              (click)="onClassClick(clazz)"
+            >{{clazz.name}}</li>
+          </ul>
+        </li>
+      </ul>
+      <!--      make sub menus for the namespaces     -->
+    </ul>
+  </li>
+</ul>
